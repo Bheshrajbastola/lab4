@@ -2,7 +2,7 @@
 If the user guesses wrong then the prompt appears again until the guess is correct, on successful guess,
 user will get a "Well guessed!" message, and the program will exit.'''
 import random
-a,b=random.randint(1,9) #a is targeted b is guessed
+a,b=random.randint(1,9),0
 while a!=b:
-    b=int(input("enter number 1to9 ; "))
+    b=int(input("enter 1to9 "))
 print("well guessed")
